@@ -32,7 +32,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f93a891-cdbc-402d-a835-072fd816d735" name="Default" comment="" />
+    <list default="true" id="2f93a891-cdbc-402d-a835-072fd816d735" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/codeitsuisse/routes/social_distancing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeitsuisse/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/codeitsuisse/__init__.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -179,6 +183,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1170" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1601091632058" />
+    <state x="1220" y="128" key="FileChooserDialogImpl" timestamp="1601139212324">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1220" y="128" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1601139212324" />
     <state width="936" height="304" key="GridCell.Tab.0.bottom" timestamp="1601102627741">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
