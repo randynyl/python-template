@@ -16,6 +16,7 @@ def evaluateBasket():
     data_dictionary = eval(data)
     quantities = []
     for key, value in data_dictionary.items():
+        logging.info("QUANTITY OF", key, "IS", value)
         quantities.append(value)
     estimate = findTotalWeight(quantities[0], quantities[1], quantities[2])
     result = "{}".format(estimate)
@@ -24,9 +25,9 @@ def evaluateBasket():
 
 
 def findTotalWeight(qty1, qty2, qty3):
-    weight1 = 77
-    weight2 = 52
-    weight3 = 38
+    weight1 = 100
+    weight2 = 0
+    weight3 = 0
     total_weight = (qty1 * weight1) + (qty2 * weight2) + (qty3 * weight3)
     return total_weight
 
