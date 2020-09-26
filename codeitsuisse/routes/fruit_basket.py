@@ -10,11 +10,12 @@ logger = logging.getLogger(__name__)
 
 @app.route('/fruitbasket', methods=['POST'])
 def evaluateBasket():
-    data = request.get_json()
+    data = request.get_data()
     logging.info("data sent for evaluation {}".format(data))
     # inputValue = data.get("input");
+    data_dictionary = eval(data)
     quantities = []
-    for key, value in data.items():
+    for key, value in data_dictionary.items():
         quantities.append(value)
     estimate = findTotalWeight(quantities[0], quantities[1], quantities[2])
     result = "{}".format(estimate)
