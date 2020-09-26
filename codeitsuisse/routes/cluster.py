@@ -38,7 +38,7 @@ def spread(area, row, col):
             for j in range(col-1, col+2):
                 if j < 0 or j > len(area[0])-1:
                     continue
-                if area[i][j] == "0":
+                if area[i][j] == "0" or area[i][j] == "1":
                     spread(area, i, j)
                 area[i][j] = "2"
 
