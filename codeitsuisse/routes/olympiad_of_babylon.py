@@ -32,7 +32,7 @@ def findOptimalNumOfBooks(book_list, day_list):
             break
     new_book_list = book_list[0:max_books]
     all_books_read = []
-    for time in day_list:
+    for time in sorted(day_list, reverse=True):
         leftover_time = time
         for i in range(len(new_book_list)):
             day_read_time = new_book_list[i]
