@@ -35,7 +35,7 @@ def rearrangeInput(sequence):
             num_of_t += 1
 
     while num_of_a >= 1 and num_of_c >= 1 and num_of_g >= 1 and num_of_t >= 1:
-        rearrangedSequence += "AGCT"
+        rearrangedSequence += "ACGT"
         num_of_a -= 1
         num_of_c -= 1
         num_of_g -= 1
