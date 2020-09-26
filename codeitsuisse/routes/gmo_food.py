@@ -15,7 +15,7 @@ def evaluateGMO():
     # inputValue = data.get("input");
     for sequenceEntry in data["list"]:
         sequenceEntry["geneSequence"] = rearrangeInput(sequenceEntry["geneSequence"])
-    return data;
+    return jsonify(data);
 
 
 def rearrangeInput(sequence):

@@ -33,10 +33,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f93a891-cdbc-402d-a835-072fd816d735" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/codeitsuisse/routes/gmo_food.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeitsuisse/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/codeitsuisse/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeitsuisse/routes/salad_spree.py" beforeDir="false" afterPath="$PROJECT_DIR$/codeitsuisse/routes/salad_spree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeitsuisse/routes/gmo_food.py" beforeDir="false" afterPath="$PROJECT_DIR$/codeitsuisse/routes/gmo_food.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +72,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.salad_spree">
+  <component name="RunManager" selected="Python.gmo_food">
     <configuration name="App" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-student-template" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,6 +86,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/App.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gmo_food" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-student-template" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/codeitsuisse/routes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/codeitsuisse/routes/gmo_food.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -119,6 +138,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.gmo_food" />
         <item itemvalue="Python.salad_spree" />
       </list>
     </recent_temporary>
@@ -162,22 +182,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1170" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1601091632058" />
-    <state width="936" height="302" key="GridCell.Tab.0.bottom" timestamp="1601092482253">
+    <state width="936" height="304" key="GridCell.Tab.0.bottom" timestamp="1601102627741">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="936" height="302" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1601092482253" />
-    <state width="936" height="302" key="GridCell.Tab.0.center" timestamp="1601092482253">
+    <state width="936" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1601102627741" />
+    <state width="936" height="304" key="GridCell.Tab.0.center" timestamp="1601102627741">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="936" height="302" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1601092482253" />
-    <state width="936" height="302" key="GridCell.Tab.0.left" timestamp="1601092482253">
+    <state width="936" height="304" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1601102627741" />
+    <state width="936" height="304" key="GridCell.Tab.0.left" timestamp="1601102627741">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="936" height="302" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1601092482253" />
-    <state width="936" height="302" key="GridCell.Tab.0.right" timestamp="1601092482253">
+    <state width="936" height="304" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1601102627741" />
+    <state width="936" height="304" key="GridCell.Tab.0.right" timestamp="1601102627741">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="936" height="302" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1601092482253" />
+    <state width="936" height="304" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1601102627741" />
     <state x="922" y="185" key="SettingsEditor" timestamp="1601085113622">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
