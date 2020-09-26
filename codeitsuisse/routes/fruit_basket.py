@@ -25,9 +25,9 @@ def evaluateBasket():
 
 
 def findTotalWeight(qty1, qty2, qty3):
-    weight1 = 53
-    weight2 = 72
-    weight3 = 21
+    weight1 = 18
+    weight2 = 80
+    weight3 = 25
     total_weight = (qty1 * weight1) + (qty2 * weight2) + (qty3 * weight3)
     return total_weight
 
