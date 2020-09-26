@@ -44,11 +44,11 @@ def rearrangeInput(sequence):
     while num_of_a >= 2:
         rearrangedSequence += "AA"
         num_of_a -= 2
-        if num_of_g != 0:
+        if num_of_g > 0:
             rearrangedSequence += "G"
             num_of_g -= 1
             continue
-        if num_of_t != 0:
+        if num_of_t > 0:
             rearrangedSequence += "T"
             num_of_t -= 1
             continue
