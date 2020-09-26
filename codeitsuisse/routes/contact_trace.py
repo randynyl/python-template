@@ -20,19 +20,17 @@ def evaluateContactTrace():
     originName = data["origin"]["name"]
     originGenome = data["origin"]["genome"]
     # inputValue = data.get("input");
-    for clusterEntry in range(len(data["cluster"])):
-        clusterDifferences = getNumberDifferences(infectedGenome, clusterEntry["genomee"])
+    for clusterEntry in data["cluster"]:
+        clusterDifferences = getNumberDifferences(infectedGenome, clusterEntry["genome"])
         if clusterDifferences < numDifferences:
+            numDifferences = clusterDifferences
             primary_cluster = clusterEntry
-
-
 
     if getNumberDifferences(infectedGenome, originGenome) < numDifferences:
         if isNonSilentMutation(infectedGenome, originGenome):
             result.append(infectedName + "* -> " + originName)
         else:
             result.append(infectedName + " -> " + originName)
-
 
     else:
         if isNonSilentMutation(infectedGenome, clusterEntry["genome"]):
@@ -41,14 +39,15 @@ def evaluateContactTrace():
             result.append(infectedName + " -> " + primary_cluster["name"])
 
         if getNumberDifferences(primary_cluster["genome"], originGenome) == 0:
-            result.append(result[0].replace(primary_cluster, originGenome))
+            result.append(infectedName + " -> " + originName)
         else:
             if isNonSilentMutation(primary_cluster["genome"], originGenome):
                 result[0] += ("* -> " + originName)
             else:
                 result[0] += (" -> " + originName)
 
-    return result;
+    print(result)
+    return jsonify(result);
 
 
 def getNumberDifferences(infected_genome, other_genome):
