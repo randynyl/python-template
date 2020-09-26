@@ -31,23 +31,23 @@ def findOptimalNumOfBooks(book_list, day_list):
         if book_time >= total_time:
             break
     new_book_list = book_list[0:max_books]
-    all_books_read = []
     for time in day_list:
         leftover_time = time
         for i in range(len(new_book_list)):
             day_read_time = new_book_list[i]
             day_books_read = [new_book_list[i]]
-            for j in range(len(new_book_list)-1, i-1):
+            for j in range(len(new_book_list)-1, i-1, -1):
                 if day_read_time + new_book_list[j] > leftover_time:
                     continue
                 day_read_time += new_book_list[j]
                 day_books_read.append(new_book_list[j])
             if time - day_read_time < leftover_time:
-                all_books_read.extend(day_books_read)
                 leftover_time = time - day_read_time
+                final_day_books_read = day_books_read
             else:
                 continue
-        for book in all_books_read:
+        print(final_day_books_read)
+        for book in final_day_books_read:
             if book in new_book_list:
                 new_book_list.remove(book)
 
