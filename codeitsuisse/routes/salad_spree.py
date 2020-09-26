@@ -15,7 +15,7 @@ def evaluateSaladSpree():
     logging.info("data sent for evaluation {}".format(data))
     # inputValue = data.get("input");
     result = {}
-    result["result"] = findTotalPrice(data["number_of_salads"], data["salad_prices_street_map"])
+    result.append(findTotalPrice(data["number_of_salads"], data["salad_prices_street_map"]))
 
     logging.info("My result :{}".format(result))
     return jsonify(result);
