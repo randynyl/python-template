@@ -14,8 +14,7 @@ def evaluateCleanFloor():
     data = request.get_json()
     logging.info("data sent for evaluation {}".format(data))
     # inputValue = data.get("input");
-    result = {}
-    result["answers"] = {}
+    result = {"answers": {}}
     for key, value in data["tests"].items():
         result["answers"][key] = cleanFloor(value["floor"])
 
