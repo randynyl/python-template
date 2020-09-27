@@ -8,6 +8,7 @@ import codeitsuisse.routes.clean_floor
 import codeitsuisse.routes.social_distancing
 import codeitsuisse.routes.cluster
 import codeitsuisse.routes.olympiad_of_babylon
+import codeitsuisse.routes.pre_tick
 
 
 
